@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+    color: #484545;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#register {
+    padding: 1.5rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.btn {
+    /* Estilos de botón general */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.my-button {
+    /* Estilos personalizados para los botones */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.my-button:hover {
+    /* Estilos al pasar el cursor sobre los botones */
+    background-color: #0056b3;
+}
+
+.my-button:active {
+    /* Estilos al hacer clic en los botones */
+    background-color: #003e80;
+}
+
+.my-button.primary {
+    /* Estilos específicos para el botón primario */
+    background-color: #28a745;
+}
+
+.my-button.secondary {
+    /* Estilos específicos para el botón secundario */
+    background-color: #dc3545;
+}
+
+
+
